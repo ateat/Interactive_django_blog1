@@ -1,0 +1,217 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    background-color: rgb(231, 235, 248);
+    }
+    header {
+    border-bottom: 4mm ridge rgb(247, 159, 121, 0.2);
+    margin-bottom: 2rem;
+    display: flex;
+    }
+
+
+header h1 a {
+    color: rgb(83, 58, 123);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 50px;
+    }
+
+.nav-left {
+    margin-right: auto;
+    }
+    .nav-right {
+    display: flex;
+    padding-top: 2rem;
+    }
+    .post-entry {
+    margin-bottom: 2rem;
+    }
+    .post-entry h2 {
+    margin: 0.5rem 0;
+    }
+    .post-entry h2 a,
+    .post-entry h2 a:visited {
+    color: rgb(247, 159, 121);
+    text-decoration: none;
+    }
+    .post-entry p {
+    margin: 10;
+    font-weight: 0;
+    }
+
+.post-entry h2 a:hover {
+    color: rgb(0, 169, 165);
+}
+
+a.button4{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    background-color:#f14e4e
+    }
+    a.button4:hover{
+    border-color: rgba(255,255,255,1);
+    }
+    @media all and (max-width:30em){
+        a.button4{
+        display:block;
+        margin:0.2em auto;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.container{
+  margin-top: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rainbow{
+  background-color: #343A40;
+  border-radius: 4px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  
+}
+
+.rainbow-4:hover{
+    background-image:  linear-gradient(
+       to right, 
+       #E7484F,
+       #F68B1D, 
+       #FCED00,
+       #009E4F,
+       #00AAC3,
+       #732982
+     );
+   animation:slidebg 1s linear infinite;
+ }
+ 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.856);
+  }
+  
+  .header h1 a {
+      color: rgb(49, 17, 100);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 50px;
+      text-align: center;
+      }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(245, 247, 247, 0);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  /* color: black; */
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
